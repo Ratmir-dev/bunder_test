@@ -1,6 +1,6 @@
 import 'package:bunder_test/widgets/badges.dart';
-import 'package:bunder_test/widgets/gradientButton.dart';
-import 'package:bunder_test/widgets/userInfo.dart';
+import 'package:bunder_test/widgets/gradient_button.dart';
+import 'package:bunder_test/widgets/user_info.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -49,7 +49,7 @@ class MyFloatingActionButton extends StatelessWidget {
     "company": null,
     "phone": null,
     "email": null,
-    "token_count": "8",
+    "token_count": "80",
     "verificate": false
   };
   @override

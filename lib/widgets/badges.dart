@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Badges extends StatelessWidget {
-  Map _user;
+  final Map _user;
   Badges(this._user);
   @override
   Widget build(BuildContext context) {
@@ -44,8 +44,8 @@ class Badges extends StatelessWidget {
 }
 
 class Badge extends StatelessWidget {
-  String _text;
-  Color _color;
+  final String _text;
+  final Color _color;
   Badge(this._text, this._color);
   @override
   Widget build(BuildContext context) {
